@@ -1,0 +1,114 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    width: 100%;
+    height: 8vh;
+  }
+  
+  li {
+    list-style: none;
+    font-size: 1.2rem;
+  }
+  
+  ul li a {
+    font-size: 1.2rem;
+  }
+  
+  .navigation a:hover {
+    font-size: 1.3rem;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .nav-container .more-option {
+    width: 120px;
+    cursor: pointer;
+    position: absolute;
+    right: 22%;
+    top: 8%;
+    background: rgb(31, 28, 28);
+    text-align: center;
+    z-index: 36;
+  }
+  
+  /* Tablet and Desktop Styles (Hide Hamburger Icon) */
+  @media (min-width: 481px) {
+    .hamburger-icon {
+      display: none;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 480px) {
+    .hamburger-icon {
+      display: block;
+      font-size: 2rem;
+      color: #ffffff;
+      cursor: pointer;
+      position: fixed;
+      top: 1rem;
+      right: 0;
+      z-index: 2001;
+    }
+  
+    /* Hide nav-container initially on mobile */
+    .nav-container {
+      display: none;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: #000;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      z-index: 2000;
+    }
+  
+    /* Show menu when toggle is active */
+    .nav-container.show {
+      display: flex;
+    }
+  
+    .nav-container .more-option {
+      right: 0%;
+      top: 99%;
+      width: 100px;
+    }
+  
+    ul li, ul li a {
+      font-size: 1rem;
+    }
+  
+    /* Background overlay with transparency */
+    .menu-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.256); /* Semi-transparent overlay */
+      z-index: 1999; /* Behind the nav-container */
+    }
+    .nav-container .more-option {
+      /* width: 120px;
+      cursor: pointer;
+      position: absolute; */
+      right: 20%;
+      top: 60%;
+      background: rgba(0, 0, 0, 0.256);
+      text-align: center;
+      
+    }
+  }
+  
