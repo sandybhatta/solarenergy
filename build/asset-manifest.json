@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/solarenergy/static/css/main.94067ad8.css",
+    "main.js": "/solarenergy/static/js/main.e359ea1b.js",
+    "static/media/video2.mp4": "/solarenergy/static/media/video2.2bc856c884af63ec2062.mp4",
+    "static/media/video3.mp4": "/solarenergy/static/media/video3.af2d69f06450096d1708.mp4",
+    "static/media/video4.mp4": "/solarenergy/static/media/video4.936d637899c802cc5abb.mp4",
+    "static/media/video1.mp4": "/solarenergy/static/media/video1.32125485d0fb7ccbe4a7.mp4",
+    "static/media/logo7.jpg": "/solarenergy/static/media/logo7.8cb3c524395fe7ef33c7.jpg",
+    "static/media/logo5.jpg": "/solarenergy/static/media/logo5.376d1214e331d73c0297.jpg",
+    "static/media/logo4.jpg": "/solarenergy/static/media/logo4.ff3b3847a97c376b3bf6.jpg",
+    "static/media/logo8.jpg": "/solarenergy/static/media/logo8.b7fcf032ae1d63afdbdb.jpg",
+    "static/media/logo6.jpg": "/solarenergy/static/media/logo6.891818904925071d531c.jpg",
+    "static/media/logo1.jpg": "/solarenergy/static/media/logo1.eae8b08bdd8de6b19462.jpg",
+    "static/media/logo3.jpg": "/solarenergy/static/media/logo3.ba2eb701a00ef4ee5b54.jpg",
+    "static/media/logo2.jpg": "/solarenergy/static/media/logo2.f02cd679b91dd964ba24.jpg",
+    "static/media/logo9.jpg": "/solarenergy/static/media/logo9.fd111be4c7858a05d346.jpg",
+    "static/media/logo10.jpg": "/solarenergy/static/media/logo10.8aadb229fc6ad00ba3ed.jpg",
+    "index.html": "/solarenergy/index.html",
+    "main.94067ad8.css.map": "/solarenergy/static/css/main.94067ad8.css.map",
+    "main.e359ea1b.js.map": "/solarenergy/static/js/main.e359ea1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94067ad8.css",
+    "static/js/main.e359ea1b.js"
+  ]
+}
