@@ -33,7 +33,7 @@ const ContactUs = () => {
               className='map'
               style={{ border: 0 }}
               allowFullScreen
-              
+              title='first map'
             ></iframe>
           ) : (
             <iframe
@@ -41,7 +41,7 @@ const ContactUs = () => {
              className='map'
               style={{ border: 0 }}
               allowFullScreen
-              
+              title='second map'
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           )}
